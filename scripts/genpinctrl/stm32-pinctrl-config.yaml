@@ -263,3 +263,9 @@
 
 - name: USB
   match: "^USB_(?:DM)?(?:DP)?(?:NOE)?$"
+
+- name: DFSDM
+  match: "^DFSDM1_(?:DATIN\\d)?(?:CKIN\\d)?(?:CKOUT)?$"
+
+- name: SAI
+  match: "^SAI\\d_(?:MCLK_[A-B])?(?:CK\\d)?(?:SD_[A-B])?(?:D\\d)?(?:FS_[A-B])?(?:SCK_[A-B])?(?:EXTCLK)?$"
